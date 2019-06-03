@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.prituladima.learn'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    springVersion = '5.1.7.RELEASE'
+    compile "org.springframework:spring-aop:5.1.7.RELEASE"
+
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.4.2'
+}
